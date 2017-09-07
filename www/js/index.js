@@ -38,7 +38,7 @@ function tokenAjax() {
 
 var viewer;
 var options = {};
-var documentId = 'urn:dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6bW9kZWwyMDE3LTA5LTA3LTE1LTAxLTQwLWQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0MjdlLzE0MDQ3XzIwMTYtMTItMTkucnZ0';
+var documentId = 'urn:dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6bW9kZWwyMDE3LTA5LTA3LTE2LTE3LTQ2LWQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0MjdlLzE0MDQ3XzIwMTYtMTItMTkucnZ0';
 var promise = tokenAjax();
 
 promise.success(function (data) {
