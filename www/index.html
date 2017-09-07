@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+    body {
+        margin: 0;
+    }
+    #MyViewerDiv {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        background-color: #F0F8FF;
+    }
+    </style>
+
+    <title>Forge Viewer Sample</title>
+    
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">    
+    <link rel="stylesheet" href="/css/main.css"> -->
+    <!-- The Viewer CSS -->    
+
+    <link rel="stylesheet" href="https://developer.api.autodesk.com/derivativeservice/v2/viewers/style.min.css?v=2.14" type="text/css">
+    
+    <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.10/angular.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+    <!-- Viewer production -->
+    <script src="https://developer.api.autodesk.com/derivativeservice/v2/viewers/three.min.js?v=2.14"></script>
+    <script src="https://developer.api.autodesk.com/derivativeservice/v2/viewers/viewer3D.min.js?v=2.14"></script>
+    
+    <!-- The Viewer Extensions -->  
+    <!-- <script src="/extensions/Autodesk.ADN.Viewing.Extension.Color.js"></script>     -->
+
+    <!-- The Viewer JS -->
+    <script src="/js/index.js"></script>
+
+</head>
+
+<body>   
+
+    <div class="container">
+        <!-- This is where your viewer should attach -->
+        <div class="center-block" id="viewerDiv"></div>
+<!--         
+        Extension Buttons
+        <div class="row">             
+           
+            <div class="myButton" id="background" onclick="setcolor()">Set Color Material</div>
+            <div class="myButton" id="background" onclick="loadMyExtension()">Load My Extension</div>
+
+        </div>  -->
+        
+    </div><!-- /container -->    
+
+</body>
+</html>
